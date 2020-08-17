@@ -573,16 +573,17 @@ a {
   padding: 3em 0; }
   .site-footer p:last-child {
     margin-bottom: 0; }
-  .site-footer .social-item {
+  .social-item {
     display: inline-block;
     width: 60px;
     height: 60px;
-    background: #333;
+    color: #FFFFFF;
+    background: rgba(255, 0, 150, 0.2);
     position: relative;
     border-radius: 50%;
     font-size: 22px;
     margin: 0 10px; }
-    .site-footer .social-item > span {
+    .social-item > span {
       position: absolute;
       top: 50%;
       left: 50%;
