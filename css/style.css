@@ -583,7 +583,14 @@ a {
     border-radius: 50%;
     font-size: 22px;
     margin: 0 10px; }
-    .social-item > span {
+  @media (max-width: 800px) {
+    .social-item {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+    }
+  }
+  .social-item > span {
       position: absolute;
       top: 50%;
       left: 50%;
